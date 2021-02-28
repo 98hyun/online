@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <img style="z-index:-1;position: fixed;left: 50%;top: 30%;transform: translate(-50%, -90%);width: 200px;height:200px" src="https://pbs.twimg.com/profile_images/2195667895/vUe8k6eS_400x400">
+    <div style="position: fixed;left: 46%;top: 40%;transform: translate(-50%, 20%);">
+        <h3 style="font-weight: bold;">레트로 고민상담</h3>
+        <h4>잊을 수 없는 손편지...</h4>
+        <h4>정성껏 답해드립니다.</h4>
+        <a href="{{url_for('email')}}"><button" class="btn btn-success" style="color:ivory">시작하기</button></a>
+    </div>
+</div>
+{% endblock content %}

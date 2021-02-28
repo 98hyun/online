@@ -1,0 +1,10 @@
+certifi==2020.6.20
+click==7.1.2
+Flask==1.1.2
+Flask-SQLAlchemy @ file:///home/conda/feedstock_root/build_artifacts/flask-sqlalchemy_1594747318500/work
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+SQLAlchemy @ file:///D:/bld/sqlalchemy_1597702078528/work
+Werkzeug==1.0.1
+wincertstore==0.2

@@ -1,0 +1,116 @@
+/* css tag */
+h1 {
+    color:tomato;
+}
+p{
+    font-size:14px;
+}
+
+/* css class */
+.male{
+    background-color:blue;
+}
+
+/* css id */
+#ceo{
+    font-weight: bold;
+}
+
+
+
+.r{
+    color:tomato;
+}
+.b{
+    color:royalblue;
+}
+#certificate{
+    font-weight: bold;
+    font-size:100px;
+}
+
+ol li{
+    font-style: italic;
+}
+li:hover{
+    background-color: royalblue;
+    color:white;
+}
+
+/* div{ */
+    width: 10px;
+    height: 10px;
+    background-color: royalblue;
+    margin:10px
+}
+
+span{
+    background-color: tomato;
+    padding:10px;
+    border:black solid 10px;
+}
+
+.container{
+    background-color:royalblue;
+    border:black solid 4px;
+    height:200vh;
+    width:100vw;
+    position: relative;
+}
+
+.block{
+    background-color: salmon;
+    border: solid black 4px;
+    font-size:50px;
+    width: 60px;
+    height: 60px;
+}
+
+#A{
+    /* 기본 */
+    position: static;
+}
+#B{
+    /* relative */
+    position: relative;
+    top:30px;
+    left:30px;
+}
+#C{
+    /* 부모 기준 절대위치 부모가 relative여야 한다. */
+    position: absolute;
+    top:30px;
+    left:50px;
+}
+#D{
+    /* 화면 기준으로 계속 위치 */
+    position: fixed;
+}
+#E{
+    position: sticky;
+    top:10px;
+    /* 고정 */
+}
+
+
+.flex-container{
+    border:black solid 4px;
+    height: 400px;
+    width: 100%;
+    background-color: lightblue;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.item{
+    width: 40px;
+    height: 40px;
+    border:black solid 3px;
+    font-size:20px;
+    background-color: lightcoral;
+    margin: 10px;
+}

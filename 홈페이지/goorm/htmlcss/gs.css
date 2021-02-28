@@ -1,0 +1,41 @@
+.fix-container{
+    width: 80%;
+    position: fixed;
+
+    left:50%;
+    top:50%;
+
+    transform: translate(-50%,-60%);
+    text-align: center;
+}
+
+.logo,
+.inputs{
+    margin-bottom:10px;
+}
+
+.inputs{
+    border: grey solid 2px;
+    padding:5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.inputs .material-icons{
+    position: relative;
+    top:4px;
+}
+
+.inputs input{
+    border:none;
+    width:300px;
+    font-size:20px;
+    padding:5px;
+    outline:none
+}
+
+.button button{
+    border-radius: 5px;
+    padding:5px 10px;
+    border:none;
+}

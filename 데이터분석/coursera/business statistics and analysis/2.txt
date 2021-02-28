@@ -1,0 +1,5 @@
+shipping cost 는 discount 대신 빼주는거라
+
+discount 가 양수일때 빼기
+
+delivery truck 일때 합
